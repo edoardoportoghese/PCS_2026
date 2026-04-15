@@ -12,7 +12,7 @@ while( !ifs.eof() ) {
 string location;
 ifs >> location;
 if (ifs.fail()) break;
-// read temperatur
+// read temperature
  double temp = 0;
 for (int i=0; i<n; i++) {
 double record;
@@ -21,7 +21,7 @@ temp += record;
 }
 temp = temp/4.0;
 
-//stampo risultati
+//print results
 cout << location << "  " << temp << "\n";
 }
 ifs.close(); // Optional: ofstream is RAII

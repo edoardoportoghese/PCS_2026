@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wshadow -Werror=vla -Wl,--dependency-file=CMakeFiles/times.dir/link.d CMakeFiles/times.dir/times.cpp.o CMakeFiles/times.dir/timecounter.cpp.o -o times
