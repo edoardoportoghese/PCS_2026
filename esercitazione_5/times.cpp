@@ -51,7 +51,7 @@ int main() {
         double t5 = tc.toc();
 
         tc.tic();
-        mergeSort(v6, v6.size() - 1);
+        mergeSort(v6, 0, v6.size() - 1);
         double t6 = tc.toc();
 
         std::cout << n << "\t"
