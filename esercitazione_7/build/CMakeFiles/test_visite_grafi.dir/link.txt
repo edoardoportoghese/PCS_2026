@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/test_visite_grafi.dir/link.d CMakeFiles/test_visite_grafi.dir/test_visite_grafi.cpp.o -o test_visite_grafi
